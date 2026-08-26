@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Presets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConversionPreset Name="To Pdf" OutputType="Pdf" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>doc</InputTypes>
+    <InputTypes>docx</InputTypes>
+    <InputTypes>odp</InputTypes>
+    <InputTypes>ods</InputTypes>
+    <InputTypes>odt</InputTypes>
+    <InputTypes>ppt</InputTypes>
+    <InputTypes>pptx</InputTypes>
+    <InputTypes>xls</InputTypes>
+    <InputTypes>xlsx</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+</Presets>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Presets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConversionPreset Name="To Png" OutputType="Png" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>avif</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="ImageScale" Value="1" />
+    <Settings Key="ImageRotation" Value="0" />
+    <Settings Key="ImageClampSizePowerOf2" Value="False" />
+    <Settings Key="ImageMaximumSize" Value="0" />
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="To Png (paged)" OutputType="Png" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>doc</InputTypes>
+    <InputTypes>docx</InputTypes>
+    <InputTypes>odp</InputTypes>
+    <InputTypes>ods</InputTypes>
+    <InputTypes>odt</InputTypes>
+    <InputTypes>pdf</InputTypes>
+    <InputTypes>ppt</InputTypes>
+    <InputTypes>pptx</InputTypes>
+    <InputTypes>xls</InputTypes>
+    <InputTypes>xlsx</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="ImageScale" Value="1" />
+    <Settings Key="ImageRotation" Value="0" />
+    <Settings Key="ImageClampSizePowerOf2" Value="False" />
+    <Settings Key="ImageMaximumSize" Value="0" />
+    <OutputFileNameTemplate>(p)(f) (n:i) of (n:c)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="To Webp" OutputType="Webp" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>avif</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="ImageQuality" Value="40" />
+    <Settings Key="ImageScale" Value="1" />
+    <Settings Key="ImageRotation" Value="0" />
+    <Settings Key="ImageClampSizePowerOf2" Value="False" />
+    <Settings Key="ImageMaximumSize" Value="0" />
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="To Avif" OutputType="Avif" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>avif</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="ImageQuality" Value="50" />
+    <Settings Key="ImageScale" Value="1" />
+    <Settings Key="ImageRotation" Value="0" />
+    <Settings Key="ImageClampSizePowerOf2" Value="False" />
+    <Settings Key="ImageMaximumSize" Value="0" />
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="To Jpg" OutputType="Jpg" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>avif</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="ImageQuality" Value="40" />
+    <Settings Key="ImageScale" Value="1" />
+    <Settings Key="ImageRotation" Value="0" />
+    <Settings Key="ImageClampSizePowerOf2" Value="False" />
+    <Settings Key="ImageMaximumSize" Value="0" />
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="To Ico" OutputType="Ico" IsDefaultSettings="true">
+    <InputTypes>xcf</InputTypes>
+    <InputTypes>arw</InputTypes>
+    <InputTypes>bmp</InputTypes>
+    <InputTypes>cr2</InputTypes>
+    <InputTypes>dds</InputTypes>
+    <InputTypes>dng</InputTypes>
+    <InputTypes>exr</InputTypes>
+    <InputTypes>heic</InputTypes>
+    <InputTypes>ico</InputTypes>
+    <InputTypes>jfif</InputTypes>
+    <InputTypes>jpg</InputTypes>
+    <InputTypes>jpeg</InputTypes>
+    <InputTypes>nef</InputTypes>
+    <InputTypes>png</InputTypes>
+    <InputTypes>psd</InputTypes>
+    <InputTypes>raf</InputTypes>
+    <InputTypes>svg</InputTypes>
+    <InputTypes>tga</InputTypes>
+    <InputTypes>tif</InputTypes>
+    <InputTypes>tiff</InputTypes>
+    <InputTypes>webp</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <OutputFileNameTemplate>(p)(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+</Presets>

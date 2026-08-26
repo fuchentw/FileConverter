@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Presets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConversionPreset Name="Extract DVD to Mp4" OutputType="Mp4" IsDefaultSettings="true">
+    <InputTypes>vob</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="EnableAudio" Value="True" />
+    <Settings Key="VideoQuality" Value="30" />
+    <Settings Key="VideoEncodingSpeed" Value="Medium" />
+    <Settings Key="VideoScale" Value="1" />
+    <Settings Key="VideoRotation" Value="0" />
+    <Settings Key="AudioBitrate" Value="155" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:v)DVD Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract DVD to Mkv" OutputType="Mkv" IsDefaultSettings="true">
+    <InputTypes>vob</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="EnableAudio" Value="True" />
+    <Settings Key="VideoQuality" Value="30" />
+    <Settings Key="VideoEncodingSpeed" Value="Medium" />
+    <Settings Key="VideoScale" Value="1" />
+    <Settings Key="VideoRotation" Value="0" />
+    <Settings Key="AudioBitrate" Value="155" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:v)DVD Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract DVD to Flac" OutputType="Flac" IsDefaultSettings="true">
+    <InputTypes>vob</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)DVD Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract DVD to Ogg" OutputType="Ogg" IsDefaultSettings="true">
+    <InputTypes>vob</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioBitrate" Value="192" />
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)DVD Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract DVD to Mp3" OutputType="Mp3" IsDefaultSettings="true">
+    <InputTypes>vob</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioEncodingMode" Value="Mp3VBR" />
+    <Settings Key="AudioBitrate" Value="225" />
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)DVD Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract CDA to Flac" OutputType="Flac" IsDefaultSettings="true">
+    <InputTypes>cda</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)CDA Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract CDA to Ogg" OutputType="Ogg" IsDefaultSettings="true">
+    <InputTypes>cda</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioBitrate" Value="192" />
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)CDA Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+  <ConversionPreset Name="Extract CDA to Mp3" OutputType="Mp3" IsDefaultSettings="true">
+    <InputTypes>cda</InputTypes>
+    <InputPostConversionAction>None</InputPostConversionAction>
+    <Settings Key="AudioEncodingMode" Value="Mp3VBR" />
+    <Settings Key="AudioBitrate" Value="225" />
+    <Settings Key="AudioChannelCount" Value="0" />
+    <Settings Key="EnableFFMPEGCustomCommand" Value="False" />
+    <Settings Key="FFMPEGCustomCommand" Value="" />
+    <OutputFileNameTemplate>(p:m)CDA Extraction\(f)</OutputFileNameTemplate>
+  </ConversionPreset>
+</Presets>
